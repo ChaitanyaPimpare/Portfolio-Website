@@ -35,7 +35,7 @@ body {
 }
 
 .logo .logo-heading {
-    color: #908d9b;
+    color: #deded0;
 
 }
 
@@ -45,7 +45,7 @@ body {
 
 .hamburger {
     display: none;
-    color: #110606;
+    color: #e7dada;
     font-size: 25px;
 }
 
@@ -452,8 +452,8 @@ body{
 }
 
 .common-btn {
-    background-color: #e8e7e3;
-    color: #c7dc0c;
+    background-color: #ffffff;
+    color: #dc9e0c;
     border: 2px solid #dba318;
     transition: all 0.25s;
 }
@@ -473,8 +473,8 @@ body{
 }
 
 .ghost-btn:hover {
-    background-color: #d2e3df;
-    color: #b6f30c;
+    background-color: #e7f1ef;
+    color: #f9af0f;
     transition: all 0.25s;
     border: 2px solid #bb960f;
 }
