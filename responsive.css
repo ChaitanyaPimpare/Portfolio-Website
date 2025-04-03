@@ -61,7 +61,6 @@
     .hero {
         justify-content: center;
         color: #fff;
-        background-image: radial-gradient(circle, rgb(15 14 14 / 30%), rgb(102 96 96 / 40%), rgb(163 160 160 / 16%)), url('./Images/heroImg3.avif')
     }
 
     .sub-heading {
@@ -168,4 +167,13 @@
     .footer-list-items {
         margin: 0;
     }
+}
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.container,  .about, .services, .contact {
+    width: 100%;
+    padding-left: 1%; /* Adjust padding instead of margin */
+    padding-right: 5%;
 }
