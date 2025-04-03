@@ -144,7 +144,7 @@ body{
 .about {
     display: flex;
     align-items: center;
-    background-image: url(bg_1.jpg);
+    background-image: url(images/bg_1.jpg);
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat; 
@@ -186,27 +186,81 @@ body{
     }
 }
 /* Portfolio section styles */
-.portfolio {
-    margin: 4.8rem 0;
-    padding: 0 5rem;
-   
+#projects {
+    text-align: center;
+    padding: 50px 20px;
+    
+    color: white;
 }
 
-.port-card {
-    padding: 0 !important;
-    background: none !important;
-    border: 2px solid #000;
+#projects h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
-.port-card .image {
+#projects p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.project {
+    background: #17010f;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(236, 211, 74);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+.project img {
     width: 100%;
-}
-
-.port-card .image img {
     height: 200px;
-    width: 100%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 20px;
+    color: #eef3f7;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #dba318;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.project a:hover {
+    background: #0c9490;
 }
 
 /* Services section styles */
