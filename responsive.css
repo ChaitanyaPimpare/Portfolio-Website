@@ -166,6 +166,7 @@
 
     .footer-list-items {
         margin: 0;
+        margin: .5rem .5rem 0 .5rem;
     }
 }
 html, body {
@@ -174,6 +175,6 @@ html, body {
 }
 .container,  .about, .services, .contact {
     width: 100%;
-    padding-left: 1%; /* Adjust padding instead of margin */
-    padding-right: 5%;
+    padding-left: 0.3%; /* Adjust padding instead of margin */
+    padding-right: 6%;
 }
