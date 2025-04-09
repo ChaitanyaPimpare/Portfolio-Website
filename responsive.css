@@ -175,6 +175,6 @@ html, body {
 }
 .container,  .about, .services, .contact {
     width: 100%;
-    padding-left: 0.3%; /* Adjust padding instead of margin */
+    padding-left: 1%; /* Adjust padding instead of margin */
     padding-right: 6%;
 }
